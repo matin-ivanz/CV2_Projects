@@ -1,7 +1,7 @@
 import cv2
 
 # upload a photo and adjust the size and color
-image = cv2.imread("CV2_Projects/Coin_Recognition/Photo_of_coins.png")
+image = cv2.imread("CV2_Projects/Coin_Recognition/Photos/Photo_of_coins.png")
 image_resized = cv2.resize(image, None, fx=0.4, fy=0.4)
 raw_image = image_resized.copy()
 image_gray = cv2.cvtColor(image_resized, cv2.COLOR_BGR2GRAY)
